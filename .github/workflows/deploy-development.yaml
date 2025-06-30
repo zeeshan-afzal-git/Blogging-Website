@@ -20,7 +20,7 @@ jobs:
         run: npm install parcel --save-dev
 
       - name: build Project
-        run: npx parce build "src/home-page.html"
+        run: npx parcel build "src/home-page.html"
 
       - name: upload artifacts
         uses: actions/upload-pages-artifact@v3
