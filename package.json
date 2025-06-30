@@ -2,11 +2,14 @@
   "name": "blogging-website",
   "version": "1.0.0",
   "description": "",
-  "main": "home-page.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/home-page.html",
+    "build": "parcel build src/home-page.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
 }
